@@ -1,0 +1,41 @@
+table {
+    margin: 2em;
+    padding: 0;
+    border-collapse: separate;
+    margin: 0 auto;
+    table-layout: fixed;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    border-spacing: 0;
+}
+
+th {
+    width: 150px;
+}
+
+th.id {
+    width: 40px;
+}
+
+th.date {
+    width: 90px;
+}
+
+th.remarks {
+    width: 200px;
+}
+
+thead {
+    background-color: #dcff7a88;
+}
+
+tr * {
+    text-align: center;
+    border-right: 1px solid #bbb;
+}
+
+tbody tr:nth-child(even) td {
+    background-color: #dff0ff;
+}
